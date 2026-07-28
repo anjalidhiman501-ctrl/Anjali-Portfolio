@@ -1,5 +1,5 @@
 import { Project, SkillCategory, TimelineItem, Service } from '../types';
-import profilePhoto from '../assets/images/anjali.png';
+import profilePhoto from './anjali.png';
 
 export const PERSONAL_INFO = {
   name: "Anjali Rani",
