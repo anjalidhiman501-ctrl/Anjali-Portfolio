@@ -1,14 +1,14 @@
 import React, { useState } from 'react';
-import { Navbar } from './components/Navbar';
-import { Hero } from './components/Hero';
-import { IntroAbout } from './components/IntroAbout';
-import { Projects } from './components/Projects';
-import { SkillsSection } from './components/SkillsSection';
-import { TimelineSection } from './components/TimelineSection';
-import { ServicesSection } from './components/ServicesSection';
-import { ContactSection } from './components/ContactSection';
-import { Footer } from './components/Footer';
-import { ResumeModal } from './components/ResumeModal';
+import { Navbar } from './Navbar';
+import { Hero } from './Hero';
+import { IntroAbout } from './IntroAbout';
+import { Projects } from './Projects';
+import { SkillsSection } from './SkillsSection';
+import { TimelineSection } from './TimelineSection';
+import { ServicesSection } from './ServicesSection';
+import { ContactSection } from './ContactSection';
+import { Footer } from './Footer';
+import { ResumeModal } from './ResumeModal';
 
 export default function App() {
   const [isResumeOpen, setIsResumeOpen] = useState(false);
