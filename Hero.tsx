@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { ArrowRight, Download, Mail, Sparkles, Terminal, Code2, Bot, MapPin, CheckCircle2 } from 'lucide-react';
-import { PERSONAL_INFO } from '../data/portfolioData';
+import { PERSONAL_INFO } from './portfolioData';
 
 interface HeroProps {
   onOpenResume: () => void;
