@@ -33,7 +33,7 @@ export const PROJECTS: Project[] = [
     techStack: ["CNN", "TensorFlow", "Python", "Hugging Face Spaces", "OpenCV", "Streamlit"],
     githubUrl: "https://github.com/anjalidhiman501-ctrl",
     liveDemoUrl: "https://huggingface.co/spaces/anjalidhiman/Potato-Leaf-Disease-Classifier",
-    imageUrl: "https://images.unsplash.com/photo-1592417817098-8f3d6eb19655?q=80&w=1200&auto=format&fit=crop",
+    imageUrl: "https://images.unsplash.com/photo-1530836369250-ef72a3f5cda8?q=80&w=1200&auto=format&fit=crop",
     imageAlt: "Potato Leaf Disease Classifier interface powered by CNN Computer Vision identifying leaf blight pathologies",
     metrics: [
       { label: "Validation Accuracy", value: "98.2%" },
