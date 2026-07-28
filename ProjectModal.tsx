@@ -1,6 +1,6 @@
 import React from 'react';
 import { X, ExternalLink, Github, Cpu, Layers, CheckCircle, BarChart3, ShieldCheck } from 'lucide-react';
-import { Project } from '../types';
+import { Project } from './types';
 
 interface ProjectModalProps {
   project: Project | null;
