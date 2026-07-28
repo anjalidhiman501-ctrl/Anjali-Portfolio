@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { ExternalLink, Github, Code, Sparkles, Layers, ArrowUpRight, Cpu } from 'lucide-react';
-import { PROJECTS } from '../data/portfolioData';
-import { Project } from '../types';
+import { PROJECTS } from './portfolioData';
+import { Project } from './types';
 import { ProjectModal } from './ProjectModal';
 
 export const Projects: React.FC = () => {
