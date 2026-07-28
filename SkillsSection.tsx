@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Cpu, BrainCircuit, Server, Sparkles, Code2, ShieldCheck, Terminal, CheckCircle2 } from 'lucide-react';
-import { SKILL_CATEGORIES } from '../data/portfolioData';
+import { SKILL_CATEGORIES } from './portfolioData';
 
 export const SkillsSection: React.FC = () => {
   const [activeCategory, setActiveCategory] = useState<string>(SKILL_CATEGORIES[0].id);
