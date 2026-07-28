@@ -1,6 +1,6 @@
 import React, { useRef } from 'react';
 import { X, Download, Printer, FileText, CheckCircle2, Mail, MapPin, ExternalLink, Github, Globe } from 'lucide-react';
-import { PERSONAL_INFO, PROJECTS, SKILL_CATEGORIES, TIMELINE_ITEMS } from '../data/portfolioData';
+import { PERSONAL_INFO, PROJECTS, SKILL_CATEGORIES, TIMELINE_ITEMS } from './portfolioData';
 
 interface ResumeModalProps {
   isOpen: boolean;
