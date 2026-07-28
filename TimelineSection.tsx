@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { GraduationCap, Award, Briefcase, Milestone, CheckCircle2, Calendar } from 'lucide-react';
-import { TIMELINE_ITEMS } from '../data/portfolioData';
+import { TIMELINE_ITEMS } from './portfolioData';
 
 export const TimelineSection: React.FC = () => {
   const [filter, setFilter] = useState<string>('all');
