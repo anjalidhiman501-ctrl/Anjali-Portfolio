@@ -1,6 +1,6 @@
 import React from 'react';
 import { Brain, Cpu, Sparkles, Target, Compass, Award, Rocket, CheckCircle } from 'lucide-react';
-import { PERSONAL_INFO } from '../data/portfolioData';
+import { PERSONAL_INFO } from './portfolioData';
 
 export const IntroAbout: React.FC = () => {
   return (
