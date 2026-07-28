@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Mail, MapPin, Send, Github, CheckCircle2, Calendar, Sparkles, AlertCircle, Loader2, ShieldCheck } from 'lucide-react';
-import { PERSONAL_INFO } from '../data/portfolioData';
+import { PERSONAL_INFO } from './portfolioData';
 import { sendContactEmail, validateContactForm, ContactFormData, EMAILJS_CONFIG } from './emailService';
 
 interface ContactSectionProps {
