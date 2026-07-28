@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Sparkles, TrendingUp, Eye, MessageSquareText, Bot, BarChart3, ShieldCheck, CloudUpload, ArrowRight, Check } from 'lucide-react';
-import { SERVICES } from '../data/portfolioData';
-import { Service } from '../types';
+import { SERVICES } from './portfolioData';
+import { Service } from './types';
 
 interface ServicesSectionProps {
   onSelectService: (serviceTitle: string) => void;
