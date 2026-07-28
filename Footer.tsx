@@ -1,6 +1,6 @@
 import React from 'react';
 import { ArrowUp, Github, Mail, FileText, Heart, MapPin, Sparkles } from 'lucide-react';
-import { PERSONAL_INFO } from '../data/portfolioData';
+import { PERSONAL_INFO } from './portfolioData';
 
 interface FooterProps {
   onOpenResume: () => void;
