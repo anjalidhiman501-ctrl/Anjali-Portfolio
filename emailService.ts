@@ -19,7 +19,7 @@ const metaEnv = (import.meta as any).env || {};
 
 export const EMAILJS_CONFIG = {
   serviceId: metaEnv.VITE_EMAILJS_SERVICE_ID || "service_xengkh8",
-  templateId: metaEnv.VITE_EMAILJS_TEMPLATE_ID || "template_k9f0g7t",
+  templateId: metaEnv.VITE_EMAILJS_TEMPLATE_ID || "template_259n4xk",
   publicKey: metaEnv.VITE_EMAILJS_PUBLIC_KEY || "3E1BZ1V9bDcYUmU5B",
   recipientEmail: 'anjalidhiman501@gmail.com',
 };
